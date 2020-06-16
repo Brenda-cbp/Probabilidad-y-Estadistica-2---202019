@@ -2,11 +2,8 @@ Probabilidad y Estadística 1: Regresión Lineal
 ================
 Nicolás Mejía & Tatiana Laverde
 
-<style>
-body {
-text-align: justify}
-</style>
-1. Introducción
+
+## 1. Introducción
 ===============
 
 Los modelos de regresión lineal buscar explicar el comportamiento de una variable aleatoria **Y** en funcion de un grupo de variables aleatorias **X**. Se asume que existe una relación lineal entre la variable dependiente (*Y*) y las variables independientes, la cual se puede expresar de la forma:
