@@ -18,7 +18,7 @@ Asi mediante una muestra se busca determinar la relacion entre las *X*′*s* y *
 
 La estimación de los parámetros se hace mediante mínimos cuadrados ordinarios (MCO), el cual busca minimizar la suma de los errores cuadráticos de estimación, en otras palabras mejorar el ajuste.
 
-$$ \\rm{min }  \\sum\_{i=1}^n e\_i^2 = \\rm{min }  \\sum\_{i=1}^n (y\_i-\\hat{y\_i})^2 = \\rm{min }  \\sum\_{i=1}^n (y\_i - \\hat{\\beta\_0} - \\hat{\\beta\_1}x\_i)^2$$
+$ \\rm{min }  \\sum\_{i=1}^n e\_i^2 = \\rm{min }  \\sum\_{i=1}^n (y\_i-\\hat{y\_i})^2 = \\rm{min }  \\sum\_{i=1}^n (y\_i - \\hat{\\beta\_0} - \\hat{\\beta\_1}x\_i)^2$
  Lo cual da como resultado para el caso de regresion lineal simple:
 $$\\hat{\\beta\_0} = \\bar{Y} - \\hat{\\beta\_1}\\bar{X}  $$
 $$\\hat{\\beta\_1} = \\frac{\\sum\_{i=1}^n(x\_i - \\bar{X})(y\_i-\\bar{Y})}{\\sum\_{i=1}^n (x\_i-\\bar{X})^2} $$
