@@ -21,53 +21,54 @@ Los objetivos primarios de curso son:
 
 ## Contenido
 
-<table class="tg">
+
+<table>
 <thead>
   <tr>
-    <th class="tg-dvpl">Tema</th>
-    <th class="tg-dvpl">Sesion</th>
-    <th class="tg-dvpl">Presentacion</th>
-    <th class="tg-dvpl">Ejercicios </th>
-    <th class="tg-dvpl">R</th>
+    <th>Tema</th>
+    <th>Sesion</th>
+    <th>Presentacion</th>
+    <th>Ejercicios </th>
+    <th>R</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-dvpl" rowspan="6">Diseño de Experimentos</td>
-    <td class="tg-dvpl">1. Inferencia Estadística</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td rowspan="6">Diseño de Experimentos</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-dvpl">2. Introducción al diseño de experimentos</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td>2. Introducción al diseño de experimentos</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-dvpl">3. ANOVA de 1 Factor</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td>3. ANOVA de 1 Factor</td>
+    <td>Presentacion 1 <br> <a href = "https://www.google.com.co/">Presentación 2</a><br></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-dvpl">4</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td>4</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-dvpl">5</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td>5</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
-    <td class="tg-dvpl">6</td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
-    <td class="tg-dvpl"></td>
+    <td>6</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
 </tbody>
 </table>
