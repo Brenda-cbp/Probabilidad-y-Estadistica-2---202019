@@ -20,14 +20,56 @@ Los objetivos primarios de curso son:
 * Las presentaciones, ejercicio, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo despues.
 
 ## Contenido
-|          Tema          |                   Sesion                  | Presentacion | Ejercicios  | R |
-|:----------------------:|:-----------------------------------------:|:------------:|:-----------:|:-:|
-| Diseño de Experimentos |         1. Inferencia Estadística         |              |             |   |
-|                        | 2. Introducción al diseño de experimentos |              |             |   |
-|                        |            3. ANOVA de 1 Factor           |              |             |   |
-|                        |                     4                     |              |             |   |
-|                        |                     5                     |              |             |   |
-|                        |                     6                     |              |             |   |
+<table>
+<thead>
+  <tr>
+    <th class="tg-c3ow">Tema</th>
+    <th class="tg-c3ow">Sesion</th>
+    <th class="tg-c3ow">Presentacion</th>
+    <th class="tg-c3ow">Ejercicios </th>
+    <th class="tg-c3ow">R</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow" rowspan="6">Diseño de Experimentos</td>
+    <td><center>1. Inferencia Estadística</center></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">2. Introducción al diseño de experimentos</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">3. ANOVA de 1 Factor</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">4</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">5</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">6</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
+</table>
 
 ## Bibliografía
 * Walpole, R.; Myers, S.; Ye, K. (2012) [Probabilidad y Estadística para ingeniería y ciencias](https://vereniciafunez94hotmail.files.wordpress.com/2014/08/8va-probabilidad-y-estadistica-para-ingenier-walpole_8.pdf). Octava edición. Prentice Hall. 
