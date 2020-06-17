@@ -8,3 +8,6 @@ Los objetivos primarios de curso son:
 - Comprender los conceptos fundamentales de los modelos vistos en el curso, incluyendo sus supuestos y limitaciones
 - Aprender a utilizar herramientas computacionales que permitan la correcta aplicación de los métodos vistos 
 - Desarrollar habilidades para el análisis, comprensión y comunicación de resultados 
+
+**Profesor:** Nicolás Mejía Martínez - n.mejia10@uniandes.edu.co
+**Asistente Graduada:** Diana Cassiani - ds.cassiani10@uniandes.edu.co
