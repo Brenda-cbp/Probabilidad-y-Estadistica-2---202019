@@ -20,53 +20,54 @@ Los objetivos primarios de curso son:
 * Las presentaciones, ejercicio, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo despues.
 
 ## Contenido
-<table>
+
+<table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow">Tema</th>
-    <th class="tg-c3ow">Sesion</th>
-    <th class="tg-c3ow">Presentacion</th>
-    <th class="tg-c3ow">Ejercicios </th>
-    <th class="tg-c3ow">R</th>
+    <th class="tg-dvpl">Tema</th>
+    <th class="tg-dvpl">Sesion</th>
+    <th class="tg-dvpl">Presentacion</th>
+    <th class="tg-dvpl">Ejercicios </th>
+    <th class="tg-dvpl">R</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow" rowspan="6">Diseño de Experimentos</td>
-    <td><center>1. Inferencia Estadística</center></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl" rowspan="6">Diseño de Experimentos</td>
+    <td class="tg-dvpl">1. Inferencia Estadística</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">2. Introducción al diseño de experimentos</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl">2. Introducción al diseño de experimentos</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">3. ANOVA de 1 Factor</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl">3. ANOVA de 1 Factor</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">4</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl">4</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">5</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl">5</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">6</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-dvpl">6</td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
+    <td class="tg-dvpl"></td>
   </tr>
 </tbody>
 </table>
