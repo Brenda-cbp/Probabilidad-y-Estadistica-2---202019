@@ -14,6 +14,22 @@ Los objetivos primarios de curso son:
 **Asistente Graduada:** Diana Cassiani - ds.cassiani10@uniandes.edu.co
 
 ## Recursos
+* Para las clases utilizaremos Zoom, siempre en la misma sala.
+* Para las comunicaciones nos pueden escribir por correo o preferiblemente utilizar el espacio de trabajo de Slack.
+* Los videos de las clases quedarán guardados en una carpeta compartida de OneDrive a la cual pueden aceder usando su cuenta uniandes.
+* Las presentaciones, ejercicio, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo despues.
+
+## Contenido
+|          Tema          |                   Sesion                  | Presentacion | Ejercicios  | R |
+|:----------------------:|:-----------------------------------------:|:------------:|:-----------:|:-:|
+| Diseño de Experimentos |         1. Inferencia Estadística         |              |             |   |
+|                        | 2. Introducción al diseño de experimentos |              |             |   |
+|                        |            3. ANOVA de 1 Factor           |              |             |   |
+|                        |                     4                     |              |             |   |
+|                        |                     5                     |              |             |   |
+|                        |                     6                     |              |             |   |
+
+## Bibliografía
 * Walpole, R.; Myers, S.; Ye, K. (2012) [Probabilidad y Estadística para ingeniería y ciencias](https://vereniciafunez94hotmail.files.wordpress.com/2014/08/8va-probabilidad-y-estadistica-para-ingenier-walpole_8.pdf). Octava edición. Prentice Hall. 
 * Montgomery, D. (2013) [Design and analysis of experiments](http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf). Eighth edition. John Wiley and Sons. 
 * Neter, J.; Kutner, M.; Nachtsheim, C.; Wasserman, W. (1996) [Applied Linear Statistical Models](http://users.stat.ufl.edu/~rohitpatra/4210/KNNL.pdf). Fourth edition. Irwin. 
