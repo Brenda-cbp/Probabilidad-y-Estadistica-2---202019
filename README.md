@@ -35,20 +35,20 @@ Los objetivos primarios de curso son:
 <tbody>
   <tr>
     <td rowspan="6">Diseño de Experimentos</td>
-    <td></td>
-    <td></td>
+    <td>1. Estadística Inferencial </td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%201%20-%20Inferencia%20Estadística.pdf">Presentación 1</a></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>2. Introducción al diseño de experimentos</td>
-    <td></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%202%20-%20Introducción%20al%20Diseño%20de%20Experimentos.pdf">Presentación 2</a></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>3. ANOVA de 1 Factor</td>
-    <td>Presentacion 1 <br> <a href = "https://www.google.com.co/">Presentación 2</a><br></td>
+    <td>Presentacion 3 <br> <a href = "https://www.google.com.co/">Presentación 4</a><br></td>
     <td></td>
     <td></td>
   </tr>
