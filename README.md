@@ -10,4 +10,5 @@ Los objetivos primarios de curso son:
 - Desarrollar habilidades para el análisis, comprensión y comunicación de resultados 
 
 **Profesor:** Nicolás Mejía Martínez - n.mejia10@uniandes.edu.co
+
 **Asistente Graduada:** Diana Cassiani - ds.cassiani10@uniandes.edu.co
