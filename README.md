@@ -43,19 +43,19 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td rowspan="6">Diseño de Experimentos</td>
     <td>1. Estadística Inferencial </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%201%20-%20Inferencia%20Estadística.pdf">Presentación 1</a></td>
-    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%201.pdf">Ejercicios Clase 1</a></td>
-    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Tutoría-R.html">Tutorial R</a></td>
+    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%201.pdf">Ejercicios C1</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Tutoriales%20R/R%20-%20Cheatsheet.pdf">Cheatsheet</a><br><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Tutoría-R.html">Tutorial R</a></td>
   </tr>
   <tr>
     <td>2. Introducción al diseño de experimentos</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%202%20-%20Introducción%20al%20Diseño%20de%20Experimentos.pdf">Presentación 2</a></td>
-    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%202.pdf">Ejercicios Clase 2 </a></td>
+    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%202.pdf">Ejercicios C2 </a></td>
     <td></td>
   </tr>
   <tr>
     <td>3. ANOVA de 1 Factor</td>
     <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%203%20-%20ANOVA%20de%201%20Factor.pdf">Presentación 3</a> <br> <a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%201%20Factor%20Otros%20Detalles.pdf">Presentación 4</a><br></td>
-    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%203.pdf">Ejercicios Clase 3</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%203.pdf">Ejercicios C3</a></td>
     <td></td>
   </tr>
   <tr>
