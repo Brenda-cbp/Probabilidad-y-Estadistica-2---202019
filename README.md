@@ -34,8 +34,8 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <th>Tema</th>
     <th>Sesion</th>
     <th>Presentaciones</th>
-    <th>Ejercicios de Clase </th>
-    <th>Notebooks R</th>
+    <th>Ejercicios </th>
+    <th>Notebooks </th>
   </tr>
 </thead>
 <tbody>
