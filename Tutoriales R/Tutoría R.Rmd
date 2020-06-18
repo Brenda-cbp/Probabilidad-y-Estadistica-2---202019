@@ -1,0 +1,247 @@
+---
+title: "Probabilidad y Estadística 1: Tutoría R"
+author: "Nicolás Mejía & Tatiana Laverde"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+### 1. Introducción
+
+
+R es un ambiente de programación formado por un conjunto de herramientas muy flexibles que pueden ampliarse fácilmente mediante paquetes, librerías o definiendo nuestras propias funciones. Además es gratuito y de código abierto, un Open Source parte del proyecto GNU, como Linux o Mozilla Firefox. 
+
+¡Esta es una de sus principales ventajas!
+
+Cualquier usuario puede descargar y crear su código de manera gratuita, sin restricciones de uso, la única regla es que la distribución siempre sea libre (GPL).
+
+Gracias a que puede accederse libremente a su código, R software no tiene limitadas sus funciones, al contrario de lo que sucede con otras herramientas estadísticas comerciales  como Statistica, SPSS, etc.
+
+R es un lenguaje interpretado y orientado a objetos (tal como java o python) lo cual facilita el trabajo con grandes cantidades de datos. 
+
+Estas son algunas de su ventajas:
+
+* Es una herramienta muy poderosa para todo tipo de procesamiento y manipulación de datos.
+* Algunas técnicas avanzadas y robustas solo pueden realizarse con este software.
+* Ambiente de trabajo muy flexible y extensible.
+* Permite crear gráficos de alta calidad exportables en diversos formatos: PostScript,pdf, bitmap, pictex, png, jpeg, etc.
+* Gran cantidad de información sobre sus funciones y paquetes de funciones.
+* Consume pocos recursos informáticos.
+* Está disponible para todos los sistemas operativos (Windows, Macintosh y sistemas Unix -como Linux-).
+* R trabaja con otros lenguajes y permite leer datos de otros softwares como SPSS, SAS, Excel, etc.
+* Puedes crear aplicaciones web interactivas (apps) con la herramienta Shiny.
+* Puedes crear un flujos de trabajo para escribir informes reproductibles y dinámicos y hacerlo en varios formatos (pdf, word, html).
+
+***
+
+### 2. Empezar a trabajar
+#### 2.1. Abrir ambiente de trabajo.
+La forma basica para trabajar en Res desde un script, lo cual nos permite generar codigo y guardarlo. Para arbir un nuevo script se va al menu $$\textrm{File $\rightarrow$ New File $\rightarrow$ R Script}$$ Esto nos abrira un script limpio en el cual podemos empezar a trabajar.
+
+#### 2.2. Instalar y Cargar Librerias.
+El verdadero poder de R proviene de la gran cantidad de cosas que es capaz de hacer. La mayoría de estas utilidades proviene, no del programa base, sino de las multiples librerías que se han desarrollado. Una librería no es mas que un paquete que contiene una serie de funciones para R. Para poder utilizar una librería primero se debe instalarla y luego llamarla. 
+```{r eval=FALSE}
+install.packages('ggplot2') # El comando install.packages y entre parentesis va el nombre del paquete que se quiere instalar.
+library(ggplot2) # Una vez se ha instalado la libreria se debe cargar junto con todas sus funciones. Esto basta con el comando library. 
+```
+Las librerias solo es necesario instalarlas una vez. Despues de haberlas instalado se puede unicamente utilizar el comando *library* para cargarlas al ambiente de trabajo.
+
+#### 2.3. Directorio de trabajo
+El directorio de trabajo hace referencia a la carpeta donde tenemos todos los archivos que utilizaremos y donde queremos que por defecto queden guardados todos nuestros graficos, archivos, etc, que creemos durante nuestro script.
+
+```{r}
+getwd() #Saber el Directorio actual
+setwd("~/Desktop") #Cambiar el directorio
+```
+
+#### 2.4. Ayuda
+Si en algun momento no estamos seguros de que hace o que parametros necesita un comando particular podemos buscar ayuda en la documentacion de R. Esto lo hacemos colocando un signo de interrogación que preceda al comando de interés.
+
+```{r eval=FALSE}
+?plot # Busca informacion del comando plot
+```
+***
+
+### 3. Tipos de Datos
+R es capaz de trabajar con una gran cantidad de datos, organizados de maneras diferentes y de tipos diferentes.
+
+#### 3.1. Variables
+Para asignar o definir una variable se utiliza *<-* o *=*, ambos simbolos son intercambiables y no existe diferencia entre los dos.
+```{r}
+# La variable X toma el valor de 5
+X <- 5
+X = 5
+```
+
+#### 3.2. Vectores
+Un vector es una estructura de datos unidimensional que contiene datos de un unico tipo. Para definir un vector utilizamos el comando *c()* donde entre los parentesis colocamos los elementos del vector separados por comas.
+```{r}
+# Definir vectores
+a <- c(1,2,3,4,5) #Numerico
+a #Retorna el vector a
+b <- c('a','b','c','d') #String
+b #Retorna el vector b
+c <- c(TRUE,FALSE,TRUE,FALSE) #Boolean
+c #Retorna el vector c
+```
+Para acceder a los elementos dentro de un vector se utiliza corchetes cuadrados y la posicion que se quiere. 
+```{r}
+# Acceder a sus elementos
+b[2] #Unico elemento (Elemento en la posicion 2)
+b[2:3] #Set de elementos seguidos (Elementos del 2 al 3)
+b[c(1,4,3)] #Set de elementos no consecutivos (Elementos 1, 4 y 3)
+```
+
+#### 3.3. Matrices
+Las matrices son estructuras multidimensionales que contienen datos de un unico tipo. Para definir una matriz utilizamos el comando *matrix* y definimos los parámetros.
+```{r}
+m <- matrix(nrow=3,ncol=3) # Matriz vacia 
+m
+m <- matrix(data=1:9, nrow=3,ncol=3) # Matriz llena con los numeros del 1 al 9
+m
+```
+Para acceder a los elementos de una matriz utilizamos corchetes cuadrados y definimos la posicion de la fila y la columna, en ese orden, del elemento que queremos.
+```{r}
+#Acceder a un elemento
+m[2,1] # Elemento de la segunda fila y primera columna
+m[3,] #Todos los elemetos de una fila
+m[,3] #Todos los elementos de una columna
+m[1:2,2:3] #Serie de elementos consecutivos
+```
+
+#### 3.4. DataFrames 
+Los dataframes son la estructura basicade R y es en la que por defecto se almacenan los datos cuando son leidos o cuando son el resultado de diversas funciones. Los dataframes poseen una ventaja fundamental sobre los tipos de datos anteriores y es que cada columna dentro de un dataframe puede tener su propio tipo, puedo tener variable string y numericas en un solo dataframe. 
+Para crear un dataframe desde 0 se utiliza el comando *data.frame* o si se quiere transformar unos datos existentes a formato data frame se utiliza el comando *as.data.frame*
+
+```{r}
+#DataFrame
+dataf <- data.frame()
+dataf
+m <- as.data.frame(m)
+m
+```
+
+Se puede trabajar con dataframes de maneras distintas.
+
+```{r}
+m[1,1] # Igual que una matriz
+m[,3] #Llamar una columna por posicion
+m$V3 #Llamar una columna por nombre
+m[['V3']] #Llamar una columna por nombre
+m[-1,] # Remueve la primera fila del df
+m[,-1] # Remueve la primera columna del df
+colnames(m) <- c('Primera','Segunda','Tercera') #Cambiar nombres de columnas
+```
+*** 
+
+### 4. Estructuras de control
+Así como en los lenguajes de programación que ya conocen en R se pueden hacer cilos (for, while) o condicionales (if, else).
+
+#### 4.1. Ciclos
+Los ciclos for tienen la siguiente forma: $$\textrm{for (val in sequence)
+{
+statement
+}} $$
+
+```{r}
+# For
+for(i in 1:10){
+  print(i) #Imprimir todos los números del 1 al 10
+}
+
+numeros <- c(1,2,3,4,5)
+num <- 0
+for(i in numeros){
+  print(i) #Imprimir todos los números del conjunto 'numeros'
+}
+```
+
+#### 4.2. Condicionales
+Los condicionales en R tienen la forma: 
+$$ \textrm{if (condition)
+{
+statement
+}} $$
+```{r}
+#Si el numero es mayor a 10 se imprime solo el numero, si el numero no es mayor a 10 pero si es mayor a 5, se imprime el numero mas 2, por ultimo si el numero no es ni mayor a 10 ni mayor a 5, se imprime el numero mas 3
+num <- 2
+if( num > 10 ){
+  print(num)
+} else if ( num > 5 ){
+  print(num + 2)
+} else{
+  print(num + 3 )
+}
+```
+
+#### 4.3. Funciones
+R nos permite definir nuestras propias funciones para que hagan lo que se nos ocurra. Las funciones tienen la forma:
+$$ \textrm{function (parameters)
+{
+body
+}} $$
+Creemos una funcion llamada ticket, que dependiendo de la velocidad que le entregamos por parametos, nos diga si tenemos exceso o no. 
+```{r}
+ticket <- function(speed){
+  if( speed > 50 ){
+  print('Exceso de velocidad')
+} else if ( speed > 40 ){
+  print('Acercandose al limite')
+} else{
+  print('Velocidad adecuada')
+}
+}
+```
+Ahora evaluemos nuestra funcion para velocidades de 10, 50 y 70
+```{r}
+ticket(10) #Deberia retornar velocidad adecuada
+ticket(50) #Deberia retornar acercandose al limite
+ticket(70) #deberia retornar exceso de velocidad
+```
+***
+
+### 5. Funciones integradas.
+
+Con el software base de R antes de instalar librería podemos leer datos desde archivos externos, escribir archivos, graficar, sacar estadisticas entre otros.
+
+#### 5.1. Leer y Escribir archivos externos
+Para leer archivos podemos separados por comas podemos utilizar el comando *read.csv()*, y para escribir este mismo tipo de archivos podemos usar *write.csv()*
+```{r eval=FALSE}
+df <- read_csv('Datos_Clase2.csv') # Al no especificar una ruta del archivo, el comando read_csv busca el archivo en el directorio de trabajo
+write_csv(df,'prueba.csv') # Este comando toma el elemento df y lo guarda como un archivo .csv llamado 'prueba'
+```
+De la misma manera R tiene una serie de datasets precargados, a estos podemos acceder con el comando *data*
+```{r}
+data(mtcars)
+```
+
+#### 5.2. Explorar los datos
+Se puede explorar de manera preliminar los datos con ayuda de los comandos *str*, el cual nos da información general del set o con los comandos *head, tail* que nos muestran las primeras (o ultimas) entradas del dataset.
+```{r}
+str(mtcars)
+head(mtcars)
+tail(mtcars)
+```
+
+Tambien podemos encontrar estadísticas descriptivas de los datos con el comando *summary*
+```{r}
+summary(mtcars)
+```
+Por último, para graficar podemos hacerlo con el comando *plot*
+
+```{r fig.align = 'center'}
+plot(mtcars$wt, mtcars$mpg, pch = 19, xlab = "Weight", ylab = "Miles per gallon", main = 'Grafico basico R')  #Realiza el plot de las variables wt contra la variable mpg
+```
+
+
+
+
+
+
