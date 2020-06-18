@@ -17,7 +17,7 @@ Los objetivos primarios de curso son:
 ## Recursos
 * Para las clases utilizaremos Zoom, siempre en la misma sala.
 * Para las comunicaciones nos pueden escribir por correo o preferiblemente utilizar el espacio de trabajo de Slack.
-* Los videos de las clases quedarán guardados en una carpeta compartida de OneDrive a la cual pueden aceder usando su cuenta uniandes.
+* Los videos de las clases quedarán guardados en una carpeta compartida de OneDrive a la cual pueden acceder usando su cuenta uniandes.
 * Las presentaciones, ejercicios, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo después.
 * El software recomendado para el desarrollo de tareas/proyectos/quices es R. Les dejo unos tutoriales para descargarlo en [Windows](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-windows-5f503f708027) y en [Mac](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4)
 * A la hora de programar [StackOverflow](https://stackoverflow.com/) es su mejor amigo. StackOverflow es un sitio de preguntas y respuestas acerca de funciones, comandos o simplemente formas de abordar problemas utilizando los lenguajes de programación más populares, entre ellos R.
@@ -89,3 +89,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 ## Articulos de Interés
 * [ANOVA 1 factor en R](http://rstudio-pubs-static.s3.amazonaws.com/252809_ce002d0706444317b41f0cff7c2c494d.html)
 * [Regresion Lineal en R](https://rpubs.com/bitettir/simpleregression)
+ 
+ ********
+**Este es un curso increíblemente útil, que cubre temas muy interesantes y para nada complicados, los cuales nos dan abren la puerta a un conjunto de aplicaciones, modelos y habilidades gigantesca. 
+Esperamos disfruten el curso, tanto como nosotros disfrutamos darlo. **
