@@ -1,4 +1,5 @@
-# Probabilidad y Estadistica 2 Intersemestral 2020
+# Probabilidad y Estadistica 2 IIND2107 - 202019
+### Universidad de los Andes
 
 Este curso presenta conceptos básicos para la aplicación de modelos estadísticos que buscan explicar una variable de interés a partir de un grupo de variables independientes. Dos formas generales de modelos serán estudiadas: modelos de comparación de medias cuando las variables explicativas son categóricas y modelos de regresión lineal cuando son continuas. Los primeros modelos se usan en el contexto de Diseño y Análisis de Experimentos estadísticos y se fundamentan en las pruebas de Análisis de Varianza. Los modelos de regresión lineal explican la variable de interés mediante una ecuación lineal en las demás variables y cuyos coeficientes son los parámetros de interés. 
 
