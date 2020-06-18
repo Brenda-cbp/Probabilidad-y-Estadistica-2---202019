@@ -19,6 +19,10 @@ Los objetivos primarios de curso son:
 * Los videos de las clases quedarán guardados en una carpeta compartida de OneDrive a la cual pueden aceder usando su cuenta uniandes.
 * Las presentaciones, ejercicio, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo despues.
 * El software recomendado para el desarrollo de tareas/proyectos/quices es R. Les dejo unos tutoriales para descargarlo en [Windows](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-windows-5f503f708027) y en [Mac](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4)
+## Casos
+Al finalizar cada una de las partes del curso veremos un caso de aplicación donde solucionaremos un problema del mundo real con las herramientas que vimos en la sección de curso.
+* Caso 1: TBA
+* cASO 2: TBA
 
 ## Contenido
 
@@ -54,19 +58,19 @@ Los objetivos primarios de curso son:
     <td></td>
   </tr>
   <tr>
-    <td>4</td>
+    <td>4. ANOVA de 2 Factores</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>5</td>
+    <td>5. ANOVA de 2 Factores con Interacción</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>6</td>
+    <td>6. Diseños Multifactoriales</td>
     <td></td>
     <td></td>
     <td></td>
