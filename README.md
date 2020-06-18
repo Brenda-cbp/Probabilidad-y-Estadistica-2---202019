@@ -91,6 +91,6 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 * [Regresion Lineal en R](https://rpubs.com/bitettir/simpleregression)
  
  ********
-**Este es un curso increíblemente útil, que cubre temas muy interesantes y para nada complicados :bar_chart: , los cuales nos dan abren la puerta a un conjunto de aplicaciones, modelos y habilidades gigantesca. Aprovechenlo lo mas que puedan** 
+**Este es un curso increíblemente útil, que cubre temas muy interesantes y para nada complicados :bar_chart: , los cuales nos dan abren la puerta a un conjunto de aplicaciones, modelos y habilidades gigantesca. Aprovechenlo lo mas que puedan.** 
 
 **Esperamos disfruten el curso, tanto como nosotros disfrutamos darlo.** :sunglasses:         
