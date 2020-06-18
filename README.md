@@ -35,7 +35,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <th>Sesion</th>
     <th>Presentaciones</th>
     <th>Ejercicios de Clase </th>
-    <th>Tutoriales R</th>
+    <th>Notebooks R</th>
   </tr>
 </thead>
 <tbody>
