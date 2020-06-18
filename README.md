@@ -33,9 +33,9 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   <tr>
     <th>Tema</th>
     <th>Sesion</th>
-    <th>Presentacion</th>
-    <th>Ejercicios </th>
-    <th>R</th>
+    <th>Presentaciones</th>
+    <th>Ejercicios de Clase </th>
+    <th>Tutoriales R</th>
   </tr>
 </thead>
 <tbody>
@@ -54,7 +54,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>3. ANOVA de 1 Factor</td>
-    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%203%20-%20ANOVA%20de%201%20Factor.pdf">Presentacion 3</a> <br> <a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%201%20Factor%20Otros%20Detalles.pdf">Presentación 4</a><br></td>
+    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%203%20-%20ANOVA%20de%201%20Factor.pdf">Presentación 3</a> <br> <a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%201%20Factor%20Otros%20Detalles.pdf">Presentación 4</a><br></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%203.pdf">Ejercicios Clase 3</a></td>
     <td></td>
   </tr>
