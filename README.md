@@ -22,7 +22,7 @@ Los objetivos primarios de curso son:
 ## Casos
 Al finalizar cada una de las partes del curso veremos un caso de aplicación donde solucionaremos un problema del mundo real con las herramientas que vimos en la sección de curso.
 * Caso 1: TBA
-* cASO 2: TBA
+* Caso 2: TBA
 
 ## Contenido
 
@@ -83,3 +83,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 * Montgomery, D. (2013) [Design and analysis of experiments](http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf). Eighth edition. John Wiley and Sons. 
 * Neter, J.; Kutner, M.; Nachtsheim, C.; Wasserman, W. (1996) [Applied Linear Statistical Models](http://users.stat.ufl.edu/~rohitpatra/4210/KNNL.pdf). Fourth edition. Irwin. 
 * Gujarati, D.; Porter, D. (2010) [Econometría](https://www.academia.edu/33064534/Gujarati_-_Econometría_-_5ta_Edición.pdf). Quinta edición. McGraw Hill 
+
+## Articulos de Interés
+* [ANOVA 1 factor en R](http://rstudio-pubs-static.s3.amazonaws.com/252809_ce002d0706444317b41f0cff7c2c494d.html)
+* [Regresion Lineal en R](https://rpubs.com/bitettir/simpleregression)
