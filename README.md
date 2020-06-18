@@ -18,6 +18,7 @@ Los objetivos primarios de curso son:
 * Para las comunicaciones nos pueden escribir por correo o preferiblemente utilizar el espacio de trabajo de Slack.
 * Los videos de las clases quedarán guardados en una carpeta compartida de OneDrive a la cual pueden aceder usando su cuenta uniandes.
 * Las presentaciones, ejercicio, tutoriales de R los pueden encontrar actualizados en este repositorio o publicados en la página del curso de SicuaPlus corto tiempo despues.
+* El software recomendado para el desarrollo de tareas/proyectos/quices es R. Les dejo unos tutoriales para descargarlo en [Windows](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-windows-5f503f708027) y en [Mac](https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4)
 
 ## Contenido
 
@@ -37,18 +38,18 @@ Los objetivos primarios de curso son:
     <td rowspan="6">Diseño de Experimentos</td>
     <td>1. Estadística Inferencial </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%201%20-%20Inferencia%20Estadística.pdf">Presentación 1</a></td>
-    <td></td>
-    <td></td>
+    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%201.pdf">Ejercicios Clase 1</a></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Tutoría-R.html">Tutorial R</a></td>
   </tr>
   <tr>
     <td>2. Introducción al diseño de experimentos</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%202%20-%20Introducción%20al%20Diseño%20de%20Experimentos.pdf">Presentación 2</a></td>
-    <td></td>
+    <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%202.pdf">Ejercicios Clase 2 </a></td>
     <td></td>
   </tr>
   <tr>
     <td>3. ANOVA de 1 Factor</td>
-    <td>Presentacion 3 <br> <a href = "https://www.google.com.co/">Presentación 4</a><br></td>
+    <td><a href = "https://www.google.com.co/">Presentacion 3</a> <br> <a href = "https://www.google.com.co/">Presentación 4</a><br></td>
     <td></td>
     <td></td>
   </tr>
