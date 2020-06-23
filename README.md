@@ -61,8 +61,8 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>4. ANOVA de 2 Factores</td>
-    <td></td>
-    <td></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%202%20Factores%20(Bloques).pdf">Presentación 5</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%204.pdf">Clase 4</a></td>
     <td></td>
   </tr>
   <tr>
