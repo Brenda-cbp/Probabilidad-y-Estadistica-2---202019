@@ -41,7 +41,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Diseño de Experimentos</td>
+    <td rowspan="9">Diseño de Experimentos</td>
     <td>1. Estadística Inferencial </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%201%20-%20Inferencia%20Estadística.pdf">Presentación 1</a></td>
     <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%201.pdf">Clase 1</a></td>
