@@ -77,6 +77,18 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%206.pdf">Clase 6</a></td>
     <td></td>
   </tr>
+  <tr>
+    <td>7. Pruebas de Contraste</td>
+    <td><a href="">Presentación 8</a></td>
+    <td><a href="">Clase 7</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8. Múltiples Contrastes</td>
+    <td><a href="">Presentación 9</a></td>
+    <td><a href="">Clase 8</a></td>
+    <td></td>
+  </tr>
 </tbody>
 </table>
 
