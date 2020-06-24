@@ -67,14 +67,14 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>5. ANOVA de 2 Factores con Interacción</td>
-    <td></td>
-    <td></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%205%20-%20ANOVA%20de%202%20Factores%20con%20Interacción.pdf">Presentación 6</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%205.pdf">Clase 5</a></td>
     <td></td>
   </tr>
   <tr>
     <td>6. Diseños Multifactoriales</td>
-    <td></td>
-    <td></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%206%20-%20Diseños%20Multifactoriales.pdf">Presentación 7</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%206.pdf">Clase 6</a></td>
     <td></td>
   </tr>
 </tbody>
