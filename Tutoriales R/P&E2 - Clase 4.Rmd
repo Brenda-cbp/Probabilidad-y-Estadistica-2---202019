@@ -1,0 +1,99 @@
+---
+title: "Probabilidad y Estadística II Clase 3"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+Nuestro problema es: 
+
+> Se quiere evaluar la eficacia de distintas dosis de un fármaco contra la hipertensión arterial, comparándola con la de una dieta sin sal. Para ello se seleccionan al azar 50 hipertensos y se distribuyen aleatoriamente en 5 grupos. Al primero de ellos no se le suministra ningún tratamiento, al segundo una dieta con un contenido pobre en sal, al tercero una dieta sin sal, al cuarto el fármaco a una dosis determinada y al quinto el mismo fármaco a otra dosis. Las presiones arteriales sistólicas de los 50 sujetos al finalizar los tratamientos se pueden encontrar en el archivo de datos publicado en sicua. Con esta información el equipo investigador requiere de su ayuda para determinar si el tratamiento al cual fue sometido el paciente posee algún efecto sobre su presión arterial.
+
+Para resolverlo seguiremos los siguientes pasos:
+
+A diferencia del código de la clase anterior, algunas de las funcionalidades que vamos a usar no se encuentran en la versión base de R, por eso debemos instalar y cargar algunas librerias. Las librerias se instalan con el comando $install.packages()$ y se cargan con el comando $library$
+```{r message=FALSE}
+#install.packages(dplyr)
+#install.packages(ggpubr)
+library(dplyr) 
+library(ggpubr) 
+```
+
+La librería $dplyr$ nos ayuda con el procesamiento de datos y la librería $ggpubr$ nos ayuda a hacer mejores gráficas.
+
+Después de cargar las librerías se importan los datos de la misma manera que lo hicimos la vez pasada. 
+```{r}
+Datos_Clase4 <- read.csv("F:/Probabilidad y Estadística II/Clase 4/EjerciciosClase3_Data.csv", sep=";")
+head(Datos_Clase4)
+```
+
+Esta vez como nuestro data frame posee varias columnas de distintos tipos utilizamos el comando $str()$ para revisar los tipos de cada variable. 
+```{r}
+str(Datos_Clase4)
+```
+
+Para poder llevar a cabo la prueba ANOVA en R se debe especificar que la variable que itilizaremos como factor, sea de tipo factor. Como vemos en nuestro caso la variable tratamiento es un entero. Para hacer la transformación utilizamos el comando $as.factor()$
+```{r}
+Datos_Clase4$Tratamiento<-as.factor(Datos_Clase4$Tratamiento)
+```
+
+Ya que todas nuestras variables tienen los tipos necesarios, podemos realizar el ANOVA. Para esto y al igual que la clase pasada, separamos las variables del data frame.
+```{r}
+## Variables dependiente: Presión Sistolica
+Presion<-Datos_Clase4$Presion_Sistolica
+## Factor: Tratamiento (Hay que especificarle a R que la variable es un factor)
+Tratamiento<-as.factor(Datos_Clase4$Tratamiento)
+```
+
+Antes de responder la pregunta de investigación es importante familiarisarce con la base de datos. Para esto, haremos un análisis descriptivo y gráfico. Para el análisis descriptivo, agruparemos los datos de acuerdo al tratamiento y calcularemos las principales estadísticas descriptivas para cada uno. 
+
+```{r}
+#Estadisticas descriptivas
+Resumen <- Datos_Clase4 %>%
+  group_by(Tratamiento) %>%
+  summarise(mean=mean(Presion_Sistolica), sd=sd(Presion_Sistolica), count=length(Presion_Sistolica), min=min(Presion_Sistolica), max=max(Presion_Sistolica)) 
+Resumen
+```
+
+Ahora para el análisis gráfico haremos diagramas de caja para ver la distribución de la variable de interés de acuerdo al tratamiento al que fue sometido.
+```{r}
+#Boxplots de las medias
+Caja<-ggboxplot(Datos_Clase4, x = "Tratamiento", y = "Presion_Sistolica", 
+          color = "Tratamiento",
+          ylab = "Presión Sistolica", xlab = "Tratamiento")
+Caja
+```
+
+Si quisieran cambiar los colores de la grafica, lo pueden hacer con el siguiente comando:
+```{r}
+set_palette(Caja,"Set1")
+```
+
+Pueden ver las paletas disponibles en el siguiente enlace: [Paletas RColorBrewer](https://www.r-graph-gallery.com/38-rcolorbrewers-palettes/) 
+
+Ahora sí podemos seguir con la prueba ANOVA. Para llevarla a cabo usamos el comando $aov$ donde debemos definir la variable dependiente seguida de $~$ y todos los factores.
+
+```{r}
+Anova<-aov(Presion~Tratamiento)
+## También se puede hacer sin separar las variables, pero entonces se debe especificar la fuente de los datos con el argumento "data" de la función.
+Anova2<-aov(Presion_Sistolica~Tratamiento, data=Datos_Clase4)
+## Revisan los resultados
+summary(Anova)
+```
+
+
+
+
+
+
+
+

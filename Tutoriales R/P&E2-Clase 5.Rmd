@@ -1,0 +1,84 @@
+---
+title: "Probabilidad y Estadística II Clase 4"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+Nuestro problema es: 
+
+> Suponga que usted es un inversionista y ha consultado a diferentes bancos de inversión con el fin de que le ayuden a estimar el retorno esperado mensual de cuatro portafolios posibles para invertir. Se seleccionó de manera aleatoria un grupo de analistas de cada uno de los bancos, los cuales presentaron una estimación de acuerdo a tres estados diferentes de la economía. Los portafolios se componen de acciones de Ecopetrol, Davivienda y Avianca, en proporciones distintas para cada portafolio. Tenga en cuenta que los portafolios son independientes. La información entregada por los analistas se puede encontrar en el archivo de datos que se encuentra en Sicua. 
+
+Para resolverlo seguiremos los siguientes pasos:
+
+Al igual que la vez pasada debemos correr las librerías que vamos a utilizar, cargar los datos, asegurarnos que los factores sean de tipo factor y por simplicidad, separar las variables.
+
+```{r message=FALSE}
+library(dplyr) 
+library(ggpubr)
+Datos <- read.csv2("C:/Users/user1/Desktop/Clases/Mias/Clase 5/Datos_Clase5.csv")
+head(Datos)
+```
+
+
+```{r}
+str(Datos)
+Datos$Portafolio<-as.factor(Datos$Portafolio)
+## Se separan las variables para el ANOVA
+## Variables dependiente: Retorno
+Retorno<-Datos$Retorno
+## Factor: Escenario y Portafolio 
+Escenario<-Datos$Escenario
+Portafolio<-Datos$Portafolio
+```
+
+Igualmente, lo primero que hacemos es un análisis descriptivo de los datos. Aca podemos agrupar por portafolio o por escenario.
+
+```{r}
+#Estadisticas descriptivas
+
+Resumen <- Datos %>%
+  group_by(Portafolio) %>%
+  summarise(mean=mean(Retorno), sd=sd(Retorno), count=length(Retorno), min=min(Retorno), max=max(Retorno)) 
+Resumen
+```
+
+
+```{r}
+#Boxplots de las medias
+ggboxplot(Datos, x = "Portafolio", y = "Retorno", 
+                color = "Portafolio",
+                ylab = "Retorno", xlab = "Portafolio")
+```
+
+Ahora el ANOVA. Debido a que lo que nos interesa en este caso es analizar si el retorno obtenido en la inversion depende del portafolio, hagamos primero un diseño de un único factor. 
+
+
+```{r}
+Anova<-aov(Retorno~Portafolio)
+## Revisan los resultados
+summary(Anova)
+```
+
+Al correr el experimento con un único factor entrega un estimador de la varianza $\hat{\sigma}^2$ gigante, lo cual ocasiona que el factor no sea significativo. 
+
+Ya que sabemos que existen grupos dentro de los datos, pues los retornos de cada portafolio están separados de acuerdo al pronóstico acerca del estado de la economía, podemos incluir estos grupos o bloques como un segundo factor para disminuir la varianza del experimento y eliminar el ruido existente con el fin de poder cuatificar el efecto "real" del factor portafolio.
+
+
+```{r}
+Anova<-aov(Retorno~Portafolio+Escenario)
+## Revisan los resultados
+summary(Anova)
+```
+
+Al incluir el bloque ¿Cambian los resultados?

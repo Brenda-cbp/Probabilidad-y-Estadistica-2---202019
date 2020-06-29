@@ -1,0 +1,71 @@
+---
+title: "Probabilidad y Estadística II Clase 5"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+Nuestro problema es:
+
+> Los padres se preocupan frecuentemente cuando los bebés presentan demoras para empezar a caminar. Se han
+creado ciertas rutinas de ejercicios (A, B, C y D) que combinados con ciertos tipos de dieta (I, II, III) podrían influir en la edad promedio (en meses) en la que un niño empieza a dar sus primeros pasos. Realice el diseño experimental adecuado para determinar si los factores: rutina de ejercicio y dieta, afectan de manera separada y/o en conjunto la edad en que un bebe da sus primeros pasos.
+
+Para resolverlo seguiremos los siguientes pasos:
+
+Al igual que la vez pasada debemos correr las librerías que vamos a utilizar, cargar los datos, asegurarnos que los factores sean de tipo factor y por simplicidad, separar las variables.
+
+```{r message=FALSE}
+library(dplyr) 
+library(ggpubr)
+Datos <- read.csv2("C:/Users/user1/Desktop/Clases/Mias/Clase 6/Datos_Clase6.csv")
+head(Datos)
+```
+
+
+```{r}
+str(Datos)
+## Se separan las variables para el ANOVA
+## Variables dependiente: Tiempo que demora el bebe en caminar (Meses)
+Tiempo<-Datos$Tiempo_Caminar
+## Factor: Rutina de Ejercicios y Dieta
+Ejercicios<-Datos$Ejercicios
+Dieta<-Datos$Dieta
+```
+
+Igualmente, lo primero que hacemos es un análisis descriptivo de los datos. Aca podemos agrupar por Ejercicios o por Dieta.
+
+```{r}
+#Estadisticas descriptivas
+
+Resumen <- Datos %>%
+  group_by(Ejercicios) %>%
+  summarise(mean=mean(Tiempo_Caminar), sd=sd(Tiempo_Caminar), count=length(Tiempo_Caminar), min=min(Tiempo_Caminar), max=max(Tiempo_Caminar)) 
+Resumen
+```
+
+Ahora hacemos el análisis gráfico, mediante un diagrama de cajas. Podemos hacerl un diagrama para cada factor o hacemos uno solo que involucre los dos, de la siguiente manera: Como parametro $x$ definimos uno de los dos factores (no importa cual), en este caso la rutina de ejercicios, coom parametro $y$ la variable de interés, en este caso el tiempo a caminar, por último como parametro $color$ colocamos el segundo factor (el que NO definimos como parametro $x$), en este caso la dieta
+
+```{r}
+#Boxplots de las medias
+ggboxplot(Datos, x = "Ejercicios", y = "Tiempo_Caminar", 
+                color = "Dieta",ylab = "Tiempo en Meses", xlab = "Rutina de ejercicio")
+```
+
+Ahora para hacer el anova que involucre los dos factores y su interacción :
+```{r}
+Anova<-aov(Tiempo~Ejercicios+Dieta+Ejercicios*Dieta)
+## Revisan los resultados
+summary(Anova)
+```
+
+
