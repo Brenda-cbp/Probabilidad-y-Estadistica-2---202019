@@ -51,7 +51,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>2. Introducción al diseño de experimentos</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%202%20-%20Introducción%20al%20Diseño%20de%20Experimentos.pdf">Presentación 2</a></td>
     <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%202.pdf">Clase 2 </a></td>
-    <td></td>
+    <td><a href = "https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Pruebas%20T.html">Pruebas T</a></td>
   </tr>
   <tr>
     <td>3. ANOVA de 1 Factor</td>
