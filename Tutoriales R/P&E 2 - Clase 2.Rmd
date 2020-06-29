@@ -1,0 +1,87 @@
+---
+title: "Probabilidad y Estadística II Clase 2"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+Antes de empezar a trabajar debemos establecer nuestro lugar de trabajo, es decir donde vamos a escribir el código. En el caso de R esto se llama un $script$. Para abrir un nevo $script$ se selecciona File-> New file-> R script.
+
+Ahora que tenemos el $script$, lo primero a hacer es leer los datos desde la ubicación en que lo guardamos. Esto lo podemos hacer de dos maneras: 
+
+1. Debido a que el archivo es un .cvs y utiliza los puntos como separador decimal debemos utilizar la función $read.csv$ la cual es nativa del programa por lo cual no debemos instalar ninguna librería. La función obtiene los datos de la dirección proporcionada y los guarda como un dataframe.
+
+2. La segunda manera es mas sencilla y no requiere de ningún código, para llevarla a cabo vamos la pestaña de File -> Import Dataset -> Read from text (base) y se busca el archivo en la ubicacion en la que se encuentre.
+
+Al seleccionar el archivo que se quiere cargar aparecera una ventana como la siguiente, en ella R ha identificado el formato en el que estan los datos, asi como el separador que tienen, por lo cual unicamente se le da al botón import
+
+Como se menciono arriba, estos dos metodos cargan el archivo de datos y lo guardan en R como un dataframe, que es la estructura basica de R.
+
+> Los data frames son estructuras de datos de dos dimensiones (rectangulares) que pueden contener datos de diferentes tipos, por lo tanto, son heterogéneas. Es la estructura de datos mas utilizada en R.
+
+Utilizamos la función para leer los datos y el comando $head$ para inspeccionar las primeras entradas del data frame. **Para correr una linea de codigo o un comando, nos paramos en dicha linea y pulsamos "crtl + enter"**
+
+```{r}
+Datos <- read.csv("/Volumes/NMM/Probabilidad y Estadística II/Clase 2/Datos_Clase2.csv", sep=";")
+head(Datos)
+
+```
+
+Ahora que ya hemos cargado los datos, vamos al caso que nos ocupa.  Recordemos: 
+
+> Se realizó un experimento para determinar la influencia del fármaco sobre la concentración  andrógenos  en  la  sangre.  Se  obtuvieron  muestras  de  sangre de  venados  inmediatamente  antes  de  recibir  una  inyección intramuscular.Treinta minutos después se obtuvo una segunda muestra de sangre y después los venados fueron liberados. ¿El fármaco tiene algún efecto?
+
+Ya que nos preguntan si el fármaco tiene algún efecto, lo podemos responder verficando si la media de la concentración de androgenos despues de la inyección es distinta a la media de la concentración de andrógenos antes de la inyección. Esto lo hacemos con una prueba de diferencia de medias probando las siguientes hipótesis:
+
+ $$H_0: \mu_{antes} = \mu_{despues} \longrightarrow H_0: \mu_{antes} - \mu_{despues} = 0$$
+$$H_1: \mu_{antes} \not=  \mu_{despues} \longrightarrow H_1: \mu_{antes} - \mu_{despues} \neq 0$$
+
+Para resolver el problema lo primero que haremos (por simplicidad) es crear una variable para cada grupo (Antes de la inyección y Depués de ella). Así, Definimos nuestros grupos como 2 variables independientes. 
+
+```{r}
+Antes<-Datos[,1]
+Despues<-Datos[,2]
+
+```
+
+Luego, unicamente para estar seguros, confirmamos que nuestras variables sean efectivamente números, haciendo uso del comando $class$. En caso de que las variables no fueran números los comandos siguientes arrojarían mensajes de error. 
+```{r}
+class(Antes)
+class(Despues)
+```
+
+Ya que sabemos que trabajamos con números podemos hacer la prueba de diferencia de medias sin ningún problema, con el fín de responder a la pregunta del ejercicio. Esta prueba es la misma que vieron en Proba 1, cuyo estadístico tiene la forma:
+
+$$t={\bar{X}-\bar{Y}-\mu_0 \over S_p\sqrt{ {1\over n_x} + {1\over n_y} }}$$
+
+En R basta con utilizar el comando $t.test$.
+```{r}
+t.test(Antes,Despues, var.equal = TRUE)
+```
+
+De acuerdo con los resultados ¿El fármaco posee algún efecto sobre la concentración de Andrógenos en la sangre?
+
+Ahora, la prueba anterior asume que los grupos son independientes. ¿Qué pasa si no lo son?. Cuando se sospeche que los grupos estan efectivamente correlacionados, la prueba anterior no sirve, pues no esta teniendo en cuenta dicha relación, para solucionar ese problema se debe llevar a cabo una **prueba t pareada**. Esta prueba consiste en generar una nueva variable d, tal qué $d_j = Y_{1j} −Y_{2j}$. De esta manera, el estadistico de prueba queda: 
+
+$$t= {\bar{d}\over \sqrt{ \hat \sigma^{2}_d \over n}  }$$
+
+El cual se distribuye como una $t$ con $n-1$ grados de libertad.
+
+Para llevar a cabo esta prueba en R, basta con modificar el comando anterior, agregando un el parámetro $paired$ como verdadero.
+
+```{r}
+t.test(Antes,Despues, var.equal = TRUE, paired = TRUE)
+```
+
+
+
+
