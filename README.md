@@ -91,10 +91,10 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>9. Validación Supuestos ANOVA</td>
-    <td><a href="">Presentación 10</a>
+    <td><a href="">Presentación 10</a><br>
     <a href="">Presentación 11</a></td>
     <td><a href="">Clase 10</a></td>
-    <td><a href=""></a><a href=""></a></td>
+    <td><a href=""></a><br><a href=""></a></td>
   </tr>
 
 </tbody>
