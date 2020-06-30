@@ -1,0 +1,62 @@
+---
+title: "Probabilidad y Estadística II Clase 6"
+author: "Nicolás Mejía Martínez"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+---
+Nuestro problema es: 
+
+> El método de fluorescencia por rayos X es una herramienta analítica importante para determinar
+la concentración de material en los propulsores sólidos para misiles. En el artículo *An X-ray Fluorescence Method for Analyzing Polybutadiene Acrylic Acid (PBAA) Propellants* (Quarterly Report, RK-TR-62-1, Army Ordinance Missile Command, 1962), se afirma que el proceso de mezcla del propulsor y el tiempo de análisis influyen en la homogeneidad del material y, por lo tanto, en la precisión de las mediciones de la intensidad de los rayos X. Se hizo un experimento 3 factores: **A, las condiciones de mezcla (4 niveles)**; **B, el tiempo de análisis (2 niveles)**; y **C, el método de carga del propulsor** en los recipientes para muestras (temperatura elevada y temperatura ambiente). El archivo que encuentra en Sicua contiene los datos que representan el porcentaje de peso del perclorato de amoniaco en un propulsor dado. Realice un análisis de varianza con $\alpha=0.05$ para probar la existencia de efectos principales y de interacción significativos.
+
+Primero leemos los datos y revisamos su tipo:
+
+```{r}
+Datos <- read.csv2("/Volumes/NMM/Probabilidad y Estadística II/Clase 7/Datos_Clase7.csv")
+head(Datos)
+```
+
+```{r}
+str(Datos)
+```
+Para poder ejecutar el ANOVA en R nuestros factores deben ser todos de tipo *factor*. Como podemos ver los factores tiempo de analisis y condiciones de mezcla son enteros, debemos transformarlos a factor:
+
+```{r}
+Datos$TiempoAnalisis <- as.factor(Datos$TiempoAnalisis)
+Datos$CondicionesMezcla <- as.factor(Datos$CondicionesMezcla)
+```
+
+Para facilitar el código nombrare a cada uno de los factores como A (Metodo de carga), B(Tiempo Análisis) y C(Condiciones Mezcla)
+
+```{r}
+A <-Datos$Metodo.de.Carga
+B <- Datos$TiempoAnalisis
+C <- Datos$CondicionesMezcla
+Y <- Datos$Porcentaje
+```
+
+Con esta nueva notación y los datos en el formato necesario ya podemos ejecutar el anova de tres factores con interacción.
+
+```{r}
+Anova_full <- aov(Y ~ A*B*C)
+summary(Anova_full)
+```
+
+Este es el modelo completo, si quisieramos aplicar el principio de jerarquia para encontrar el mejor modelo empezariamos revisando la interacción de orden superior, en este caso la triple.
+
+Como podemos ver la triple interacción no es significativa al 5%, por esto la metemos al error y recalculamos en anova. Dentro de la formula del ANOVA los factores individuales van con $+$ mientras que las interacciones van con $*$
+```{r}
+Anova_iter_1 <- aov(Y ~ A + B + C + A*B + A*C + B*C)
+summary(Anova_iter_1)
+```
+Ahora vemos que, al 5% la interaccion AC no es significativa, la metemos al error y recalculamos.
+
+```{r}
+Anova_iter_2 <- aov(Y ~ A + B + C + A*B + B*C)
+summary(Anova_iter_2)
+```
+
+Finalmente, hemos llegado a un modelo ANOVA en el cual todas las interacciones de orden superior son significativas. De acuerdo con el principio de jerarquia hemos llegado al mejor modelo o al mas adecuado para nuestra situación
