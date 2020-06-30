@@ -75,13 +75,13 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>6. Diseños Multifactoriales</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%206%20-%20Diseños%20Multifactoriales.pdf">Presentación 7</a></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%206.pdf">Clase 6</a></td>
-    <td></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Diseños%20Multifactoriales.html">ANOVA 3 Factores</a></td>
   </tr>
   <tr>
     <td>7. Pruebas de Contraste</td>
     <td><a href="">Presentación 8</a></td>
     <td><a href="">Clase 7</a></td>
-    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Diseños%20Multifactoriales.html">ANOVA 3 Factores</a></td>
+    <td></td>
   </tr>
   <tr>
     <td>8. Múltiples Contrastes</td>
