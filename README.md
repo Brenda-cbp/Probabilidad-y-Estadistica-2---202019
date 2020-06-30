@@ -69,7 +69,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>5. ANOVA de 2 Factores con Interacción</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%205%20-%20ANOVA%20de%202%20Factores%20con%20Interacción.pdf">Presentación 6</a></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%205.pdf">Clase 5</a></td>
-    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/ANOVA%203%20Factores.html">Interaccion</a></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/ANOVA%203%20Factores.html">Interacción</a></td>
   </tr>
   <tr>
     <td>6. Diseños Multifactoriales</td>
@@ -94,7 +94,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href="">Presentación 10</a><br>
     <a href="">Presentación 11</a></td>
     <td><a href="">Clase 10</a></td>
-    <td><a href=""></a><br><a href=""></a></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Heteroscedasticidad.html">Heteroscedasticidad</a><br><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Validacion.html">Validación</a></td>
   </tr>
 
 </tbody>
