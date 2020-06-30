@@ -89,6 +89,14 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href="">Clase 8</a></td>
     <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Tukey.html">Tukey</a></td>
   </tr>
+  <tr>
+    <td>9. Validación Supuestos ANOVA</td>
+    <td><a href="">Presentación 10</a>
+    <a href="">Presentación 11</a></td>
+    <td><a href="">Clase 10</a></td>
+    <td><a href=""></a><a href=""></a></td>
+  </tr>
+
 </tbody>
 </table>
 
