@@ -1,0 +1,77 @@
+---
+title: "Probabilidad y Estadística II Clase 10"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+Nuestro problema es: 
+
+> Se quiere evaluar la eficacia de distintas dosis de un fármaco contra la hipertensión arterial, comparándola con la de una dieta sin sal. Para ello se seleccionan al azar 50 hipertensos y se distribuyen aleatoriamente en 5 grupos. Al primero de ellos no se le suministra ningún tratamiento, al segundo una dieta con un contenido pobre en sal, al tercero una dieta sin sal, al cuarto el fármaco a una dosis determinada y al quinto el mismo fármaco a otra dosis. Las presiones arteriales sistólicas de los 50 sujetos al finalizar los tratamientos se pueden encontrar en el archivo de datos publicado en sicua. Con esta información el equipo investigador requiere de su ayuda para determinar si el tratamiento al cual fue sometido el paciente posee algún efecto sobre su presión arterial. Despues de realizar el ANOVA pruebe si es valido o no.
+
+Para esto cargamos los datos, nos aseguramos que tengan el tipo necesario y corremos el ANOVA
+```{r}
+library(ggpubr) 
+Datos <- read.csv("C:/Users/user1/Desktop/Clases/Mias/Clase 4/Datos_Clase4.csv", sep=";")
+Datos$Tratamiento<-as.factor(Datos$Tratamiento)
+## Variables dependiente: Presión Sistolica
+Presion<-Datos$Presion_Sistolica
+## Factor: Tratamiento (Hay que especificarle a R que la variable es un factor)
+Tratamiento<-as.factor(Datos$Tratamiento)
+
+
+Anova<-aov(Presion~Tratamiento)
+
+```
+
+Despues de realizar el ANOVA calculamos los valores ajustados y los residuos mediante los comandos $predict$ y $resid$, respectivamente.
+```{r}
+Datos$Residuos<-resid(Anova)
+Datos$Ajustados<-predict(Anova)
+```
+
+En primer lugar revisaremos si los residuos poseen una distribución normal. Esto mediante histogramas, qqplots y pruebas de bondad de ajuste.
+
+```{r}
+#Histogramas
+hist(Datos$Residuos)
+```
+
+```{r}
+#QQplot
+qqnorm(Datos$Residuos)
+qqline(Datos$Residuos)
+
+```
+
+Depues queremos identificar si los residuos son verdadermente aleatorios, asegurandonos que no existan ningun tipo de patron en ellos. Esto lo haremos mediante graficos de dispersión y boxplots contra los valores ajustados.
+```{r}
+#Dispersion (Residuos vs Tiempo)
+plot(Datos$Residuos, ylab="Residuos", xlab="Observación")
+```
+
+```{r}
+#Dispersion (Residuales vs Y)
+plot(Residuos~Presion_Sistolica, data=Datos)
+```
+
+```{r}
+plot(Residuos~Tratamiento, data=Datos)
+```
+```{r}
+plot(Residuos~Ajustados, data=Datos)
+```
+```{r}
+shapiro.test(Datos$Residuos)
+```
+
