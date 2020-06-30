@@ -12,7 +12,7 @@ Los objetivos primarios de curso son:
 
 **Profesor:** Nicolás Mejía Martínez - n.mejia10@uniandes.edu.co
 
-**Asistente Graduada:** Diana Cassiani - ds.cassiani10@uniandes.edu.co
+**Asistente Graduada:** Diana Cassiani - ds.cassiani10@uniandes.edu.co 
 
 ## Recursos
 * Para las clases utilizaremos Zoom, siempre en la misma sala.
