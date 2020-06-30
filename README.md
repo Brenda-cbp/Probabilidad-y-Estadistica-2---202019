@@ -57,19 +57,19 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>3. ANOVA de 1 Factor</td>
     <td><a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%203%20-%20ANOVA%20de%201%20Factor.pdf">Presentación 3</a> <br> <a href = "https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%201%20Factor%20Otros%20Detalles.pdf">Presentación 4</a><br></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%203.pdf">Clase 3</a></td>
-    <td></td>
+    <td><a href ="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/ANOVA%201%20Factor.html">ANOVA 1 Factor</a></td>
   </tr>
   <tr>
     <td>4. ANOVA de 2 Factores</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%204%20-%20ANOVA%20de%202%20Factores%20(Bloques).pdf">Presentación 5</a></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%204.pdf">Clase 4</a></td>
-    <td></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/ANOVA%202%20Factores.html">ANOVA 2 Factores></a></td>
   </tr>
   <tr>
     <td>5. ANOVA de 2 Factores con Interacción</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%205%20-%20ANOVA%20de%202%20Factores%20con%20Interacción.pdf">Presentación 6</a></td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%205.pdf">Clase 5</a></td>
-    <td></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/ANOVA%203%20Factores.html">Interaccion</a></td>
   </tr>
   <tr>
     <td>6. Diseños Multifactoriales</td>
