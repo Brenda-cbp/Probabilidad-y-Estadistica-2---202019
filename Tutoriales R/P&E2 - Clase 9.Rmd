@@ -1,0 +1,56 @@
+---
+title: "Probabilidad y Estadística II Clase 8"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+> Se realizó un experimento para estudiar los efectos de la temperatura y el tipo de horno sobre la vida
+de un componente en particular. En el experimento se utilizaron 4 tipos de horno y 3 niveles de temperatura.
+Se asignaron 24 piezas al azar, 2 para cada combinación de tratamientos y los resultados se encuentran en Sicua
+
+
+Para el ejercicio necesitaremos 2 librerias $dplyr$ que ya conocemos y $multcompView$ para la prueba de Tukey 
+```{r message=FALSE}
+library(multcompView)
+library(dplyr)
+```
+
+Primero leemos los datos, revisamos sus tipos y hacemos los cambios necesarios.
+```{r}
+Datos <- read.csv2("F:/Probabilidad y Estadística II/Clase 9/Datos2_Clase9.csv")
+str(Datos)
+Datos$Temperatura<-as.factor(Datos$Temperatura)
+```
+
+Como Tukey es una prueba de comparación múltiple que nos dice cuales son los pares de medias diferentes en caso de que existan diferencias, debe hacerse despues del ANOVA. Los resultados del ANOVA deben guardarse en una variable que luego será utilizada para hacer la prueba de Tukey
+```{r}
+Anova<-aov(Vida ~ Horno*Temperatura, data = Datos)
+summary(Anova)
+```
+
+Antes de la prueba podemos explorar las medias por nivel de cada factor.
+```{r}
+Medias<-Datos%>% group_by(Horno) %>% summarise(Media=mean(Vida))
+Medias
+```
+
+Ahora la prueba de tukey se hace con el comando $TukeyHSD$ especificando el anova que se desarrolló anteriormente, el factor/interacción del que se quieren hacer comparacions y se puede especificar un nivel de confianza (por defecto es del 0.95)
+```{r}
+Tukey<-TukeyHSD(Anova,"Horno",conf.level=0.95)
+Tukey
+
+```
+Tambien podemos hacer una grafica de las comparaciones con el comando plot
+```{r}
+plot(Tukey , las=1 , col="brown")
+```
