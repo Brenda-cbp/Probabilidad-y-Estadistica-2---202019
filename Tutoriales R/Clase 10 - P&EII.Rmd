@@ -1,0 +1,51 @@
+---
+title: "Probabilidad y Estadística II Clase 10"
+author: "Nicolás Mejía Martínez"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    theme: united
+
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+```{r}
+library(car)
+```
+
+Primero leemos los datos, revisamos sus tipos y hacemos los cambios
+necesarios.
+
+```{r}
+Datos <- read.csv("F:/Probabilidad y Estadística II/Clase 9/Datos2_Clase9.csv", sep=";")
+Datos$Temperatura<-as.factor(Datos$Temperatura)
+```
+
+A diferencia de Tukey, las pruebas de homoscedasticidad deben hacerse antes del ANOVA entonces no es necesario primero correr un ANOVA (a menos que se quiera hacer la prueba por tratamiento).
+
+Si se quiere hacer la prueba por factores se utiliza el comando $leveneTest$. Este comando se utiliza para realizar ambas pruebas, lo único que cambia es el argumento $center$. 
+
+Si $center="mean"$ se esta llevando a cabo la prueba de Levene, si por el contrario $center="median"$ se está haciendo la prueba de Brown-Forsythe
+```{r}
+leveneTest(y=Datos$Vida, group = Datos$Horno, center = "mean")
+```
+```{r}
+leveneTest(y=Datos$Vida, group = Datos$Horno, center = "median")
+```
+
+Para realizar la prueba por tratamiento (teniendo en cuenta la interaccion por factores) debe primero correrse un diseño experimental que incluya dicha interacción y luego si la prueba de homogeneidad de varianzas.
+```{r}
+Anova<-aov(Vida~Horno*Temperatura, data = Datos)
+summary(Anova)
+```
+
+```{r message=FALSE, warning=FALSE}
+leveneTest(Anova, center="median")
+```
+
