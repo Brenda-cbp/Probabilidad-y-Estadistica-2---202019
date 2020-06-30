@@ -81,7 +81,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>7. Pruebas de Contraste</td>
     <td><a href="">Presentación 8</a></td>
     <td><a href="">Clase 7</a></td>
-    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Diseños%20Multifactoriales.html">Interacción</a></td>
+    <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Diseños%20Multifactoriales.html">ANOVA 3 Factores</a></td>
   </tr>
   <tr>
     <td>8. Múltiples Contrastes</td>
