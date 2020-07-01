@@ -79,14 +79,14 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>7. Pruebas de Contraste</td>
-    <td><a href="">Presentación 8</a></td>
-    <td><a href="">Clase 7</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%207%20-%20Pruebas%20de%20Contraste.pdf">Presentación 8</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%207.pdf">Clase 7</a></td>
     <td></td>
   </tr>
   <tr>
     <td>8. Múltiples Contrastes</td>
-    <td><a href="">Presentación 9</a></td>
-    <td><a href="">Clase 8</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%208%20-%20Mu%CC%81ltiples%20Contrastes.pdf">Presentación 9</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%208.pdf">Clase 8</a></td>
     <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Tukey.html">Tukey</a></td>
   </tr>
   <tr>
