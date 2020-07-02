@@ -91,9 +91,9 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
   <tr>
     <td>9. Validación Supuestos ANOVA</td>
-    <td><a href="">Presentación 10</a><br>
-    <a href="">Presentación 11</a></td>
-    <td><a href="">Clase 10</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%209%20-%20Heteroscedasticidad.pdf">Presentación 10</a><br>
+    <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%209%20-%20Validacio%CC%81n%20ANOVA.pdf">Presentación 11</a></td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Ejercicios/Ejercicios%20Clase%209.pdf">Clase 9</a></td>
     <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Heteroscedasticidad.html">Heteroscedasticidad</a><br><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Validacion.html">Validación</a></td>
   </tr>
 
