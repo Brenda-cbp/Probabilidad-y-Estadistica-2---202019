@@ -110,6 +110,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 * [ANOVA 1 factor en R](http://rstudio-pubs-static.s3.amazonaws.com/252809_ce002d0706444317b41f0cff7c2c494d.html)
 * [Regresion Lineal en R](https://rpubs.com/bitettir/simpleregression)
 * [Fighting the Coronavirus with Statistics](https://www.analyticsvidhya.com/blog/2020/06/introduction-anova-statistics-data-science-covid-python/)
+* [Practical K means Clusterin in R] (https://uc-r.github.io/kmeans_clustering)
  
  ********
 **Este es un curso increíblemente útil, que cubre temas muy interesantes y para nada complicados :bar_chart: , los cuales nos dan abren la puerta a un conjunto de aplicaciones, modelos y habilidades gigantesca. Aprovechenlo lo mas que puedan.** 
