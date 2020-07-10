@@ -107,6 +107,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 * Gujarati, D.; Porter, D. (2010) [Econometría](https://www.academia.edu/33064534/Gujarati_-_Econometría_-_5ta_Edición.pdf). Quinta edición. McGraw Hill 
 
 ## Articulos de Interés
+* [Role of Statistics in Data Science](https://blog.floydhub.com/statistics-for-data-science/)
 * [ANOVA 1 factor en R](http://rstudio-pubs-static.s3.amazonaws.com/252809_ce002d0706444317b41f0cff7c2c494d.html)
 * [Regresion Lineal en R](https://rpubs.com/bitettir/simpleregression)
 * [Fighting the Coronavirus with Statistics](https://www.analyticsvidhya.com/blog/2020/06/introduction-anova-statistics-data-science-covid-python/)
