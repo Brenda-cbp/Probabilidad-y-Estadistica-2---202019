@@ -97,6 +97,17 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Heteroscedasticidad.html">Heteroscedasticidad</a><br><a href="https://nmejia10.github.io/Probabilidad-y-Estadistica-2---202019/Tutoriales%20R/Validacion.html">Validación</a></td>
   </tr>
 
+
+ <tr>
+    <td rowspan="9">Modelos de Regresión</td>
+    <td>1. Regresión Lineal Simple </td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20I.pdf">Presentación 12</a><br>
+    <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20II.pdf">Presentación 13</a></td>
+    <td><a href = "">Clase 13</a></td>
+    <td><a href="">Regresión Simple</a></td>
+  </tr>
+
+
 </tbody>
 </table>
 
