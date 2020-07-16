@@ -106,6 +106,19 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href = "">Clase 13</a></td>
     <td><a href="">Regresión Simple</a></td>
   </tr>
+   <tr>
+    <td>2. Regresión Lineal Múltiple </td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2014%20-%20Regresio%CC%81n%20Lineal%20Mu%CC%81ltiple%20I.pdf">Presentación 14</a><br>
+    <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2014%20-%20Regresio%CC%81n%20Lineal%20Mu%CC%81ltiple%20II.pdf">Presentación 15</a></td>
+    <td><a href = "">Clase 14</a></td>
+    <td><a href="">Regresión Múltiple</a></td>
+  </tr>
+    <tr>
+    <td>3. Selección de Modelos</td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2015%20-%20Seleccio%CC%81n%20de%20Modelos.pdf">Presentación 16</a></td>
+    <td><a href="">Clase 15/a></td>
+    <td><a href="">Selección</a></td>
+  </tr>
 
 
 </tbody>
