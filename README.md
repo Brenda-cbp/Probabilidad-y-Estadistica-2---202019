@@ -116,7 +116,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <tr>
     <td>3. Selección de Modelos</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2015%20-%20Seleccio%CC%81n%20de%20Modelos.pdf">Presentación 16</a></td>
-    <td><a href="">Clase 15/a></td>
+    <td><a href="">Clase 15</a></td>
     <td><a href="">Selección</a></td>
   </tr>
 
