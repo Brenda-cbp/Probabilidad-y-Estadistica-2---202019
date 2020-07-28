@@ -122,7 +122,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 <tr>
     <td>4. Variables Categóricas</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2016%20-%20Variables%20Categoricas.pdf">Presentación 17</a></td>
-    <td><a href="">Clase 16</a></td>
+    <td><a href=""></a></td>
     <td><a href=""></a></td>
   </tr>
   
