@@ -103,21 +103,21 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td>1. Regresión Lineal Simple </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20I.pdf">Presentación 12</a><br>
     <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20II.pdf">Presentación 13</a></td>
-    <td><a href = "">Clase 13</a></td>
-    <td><a href="">Regresión Simple</a></td>
+    <td><a href = ""></a></td>
+    <td><a href=""></a></td>
   </tr>
    <tr>
     <td>2. Regresión Lineal Múltiple </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2014%20-%20Regresio%CC%81n%20Lineal%20Mu%CC%81ltiple%20I.pdf">Presentación 14</a><br>
     <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2014%20-%20Regresio%CC%81n%20Lineal%20Mu%CC%81ltiple%20II.pdf">Presentación 15</a></td>
-    <td><a href = "">Clase 14</a></td>
-    <td><a href="">Regresión Múltiple</a></td>
+    <td><a href = ""></a></td>
+    <td><a href=""></a></td>
   </tr>
     <tr>
     <td>3. Selección de Modelos</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2015%20-%20Seleccio%CC%81n%20de%20Modelos.pdf">Presentación 16</a></td>
-    <td><a href="">Clase 15</a></td>
-    <td><a href="">Selección</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
   </tr>
 <tr>
     <td>4. Variables Categóricas</td>
@@ -125,7 +125,21 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href="">Clase 16</a></td>
     <td><a href=""></a></td>
   </tr>
+  
+  
+<tr>
+    <td>5. Multicolinealidad</td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2017%20-%20Multicolinealidad.pdf">Presentación 18</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
 
+<tr>
+    <td>6. Heteroscedasticidad</td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2018%20-%20Heteroscedasticidad.pdf">Presentación 19</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
 
 
 </tbody>
