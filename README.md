@@ -140,7 +140,20 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href=""></a></td>
     <td><a href=""></a></td>
   </tr>
+  
+  <tr>
+    <td>7. Autocorrelación</td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2019.1%20-%20Autocorrelacio%CC%81n.pdf">Presentación 20</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
 
+  <tr>
+    <td>8. Especificación/td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2019.2%20-%20Especificacio%CC%81n.pdf">Presentación 21</a></td>
+    <td><a href=""></a></td>
+    <td><a href=""></a></td>
+  </tr>
 
 </tbody>
 </table>
