@@ -149,7 +149,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
   </tr>
 
   <tr>
-    <td>8. Especificación/td>
+    <td>8. Especificación</td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2019.2%20-%20Especificacio%CC%81n.pdf">Presentación 21</a></td>
     <td><a href=""></a></td>
     <td><a href=""></a></td>
