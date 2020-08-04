@@ -99,7 +99,7 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 
 
  <tr>
-    <td rowspan="9">Modelos de Regresión</td>
+    <td rowspan="8">Modelos de Regresión</td>
     <td>1. Regresión Lineal Simple </td>
     <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20I.pdf">Presentación 12</a><br>
     <a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2013%20-%20Regresión%20Lineal%20II.pdf">Presentación 13</a></td>
@@ -155,8 +155,16 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
     <td><a href=""></a></td>
   </tr>
 
+<tr>
+    <td rowspan="1">Modelos Lineales Generalizados</td>
+    <td>1. Regresión Logística </td>
+    <td><a href="https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Presentaciones/Clase%2020%20-%20Regresi%C3%B3n%20Log%C3%ADstica.pdf">Presentación 22</a>
+  </tr>
+
 </tbody>
 </table>
+
+
 
 ## Bibliografía
 * Walpole, R.; Myers, S.; Ye, K. (2012) [Probabilidad y Estadística para ingeniería y ciencias](https://vereniciafunez94hotmail.files.wordpress.com/2014/08/8va-probabilidad-y-estadistica-para-ingenier-walpole_8.pdf). Octava edición. Prentice Hall. 
