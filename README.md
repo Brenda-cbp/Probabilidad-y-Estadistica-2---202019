@@ -23,8 +23,8 @@ Los objetivos primarios de curso son:
 * A la hora de programar [StackOverflow](https://stackoverflow.com/) es su mejor amigo. StackOverflow es un sitio de preguntas y respuestas acerca de funciones, comandos o simplemente formas de abordar problemas utilizando los lenguajes de programación más populares, entre ellos R.
 ## Casos
 Al finalizar cada una de las partes del curso veremos un caso de aplicación donde solucionaremos un problema del mundo real con las herramientas que vimos en la sección de curso.
-* Caso 1: TBA
-* Caso 2: TBA
+* Caso 1: Caso Rappi.[]()
+* Caso 2: Caso Depresión Universitaria.[]()
 
 ## Contenido
 
