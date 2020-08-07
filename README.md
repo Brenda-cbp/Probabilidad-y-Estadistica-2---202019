@@ -172,6 +172,14 @@ Al finalizar cada una de las partes del curso veremos un caso de aplicación don
 * Neter, J.; Kutner, M.; Nachtsheim, C.; Wasserman, W. (1996) [Applied Linear Statistical Models](http://users.stat.ufl.edu/~rohitpatra/4210/KNNL.pdf). Fourth edition. Irwin. 
 * Gujarati, D.; Porter, D. (2010) [Econometría](https://www.academia.edu/33064534/Gujarati_-_Econometría_-_5ta_Edición.pdf). Quinta edición. McGraw Hill 
 
+
+## Mis Proyectos
+
+* [Machine Learning Techniques for PM10 Levels Forecast in Bogotá](https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Papers/Application_of_Machine_Learning_Techniques_for_PM__Copy.pdf)
+* [Pronostico y Prevención de la calidad de aire en la red de monitoreo de la calidad de aire en Bogotá](https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Papers/Pronostico%20y%20Prevenci%C3%B3n%20de%20la%20calidad%20de%20aire%20en%20la%20red%20de%20monitoreo%20de%20....pdf)
+* [Diseño e implementación de una metodología estructurada para el análisis de decisiones aplicada al soporte del diagnóstico de trastorno depresivo en
+estudiantes universitarios](https://github.com/nmejia10/Probabilidad-y-Estadistica-2---202019/blob/master/Papers/Diagnostico%20de%20Depresio%CC%81n%20en%20Estudiantes%20Universitarios.pdf)
+
 ## Articulos de Interés
 * [How Data Scientists Turned Against Statistics](https://www.forbes.com/sites/kalevleetaru/2019/03/07/how-data-scientists-turned-against-statistics/)
 * [Role of Statistics in Data Science](https://blog.floydhub.com/statistics-for-data-science/)
